@@ -5,10 +5,10 @@ import { HttpClient } from '@angular/common/http';
   selector: 'app-chat-page',
   standalone: true,
   imports: [],
-  templateUrl: './chat-page.component.html',
-  styleUrl: './chat-page.component.css'
+  templateUrl: './chatbot-page.html',
+  styleUrl: './chatbot-page.css'
 })
-export class ChatPageComponent {
+export class ChatBotPage {
 
   private http = inject(HttpClient);
 

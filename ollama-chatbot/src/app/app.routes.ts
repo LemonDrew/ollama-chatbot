@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
-import { ChatPageComponent } from './chat-page/chat-page.component';
+import { ChatBotPage } from './chatbot-page/chatbot-page';
 
 export const routes: Routes = [
-    {
-        path : '',
-        component : ChatPageComponent
-    }
+  {
+    path: '',
+    component: ChatBotPage
+  }
 ];
