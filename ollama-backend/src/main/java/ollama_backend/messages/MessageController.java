@@ -30,6 +30,7 @@ public class MessageController {
         payload.put("model", "qwen3:8b");
         payload.put("prompt", "Hello");
         payload.put("stream", false);
+        payload.put("think", false);
 
         String response = restClient.post()
                 .uri("http://localhost:11434/api/generate")

@@ -1,9 +1,9 @@
 package ollama_backend.messages;
 
-public class Message {
+public class MessageRequest {
     private String content;
 
-    public Message(String content) {
+    public MessageRequest(String content) {
         this.content = content;
     }
 
